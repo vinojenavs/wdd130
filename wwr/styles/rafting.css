@@ -4,7 +4,6 @@
     --gray: #7a7d7dff;
     --timberwolf: #d0cfcfff;
     --davys-gray: #565254ff;
-    --max-width: auto;
 }
 
 h1,
@@ -52,7 +51,6 @@ header nav {
 
 body {
     background-color: var(--snow);
-    max-width: var(--max-width);
 }
 
 .soap img {
@@ -69,7 +67,6 @@ body {
     padding: 0px 0%;
     right: 20%;
     margin: 20px;
-    max-width: var(--max-width);
 }
 
 article {
@@ -81,7 +78,6 @@ article {
     padding: 10px;
     left: 9px;
     right: 9px;
-    max-width: var(--max-width);
 }
 
 article img {
