@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+header h1 {
+    text-align: center;
+    background-color: lightblue;
+}
+
+form {
+    width: 540px;
+    margin: 20px auto;
+    padding: 1rem;
+    border: 2px solid rgb(66, 198, 241);
+    border-radius: 0.5rem;
+    background-color: rgba(173, 216, 230, 0.727);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 3px;
+    padding: 2px;
+}
+
+legend {
+    color: blue;
+    padding: 5px;
+    font-size: 18px;
+}
+
+label, input, button, select {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    text-align: left;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin-left: 80%;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: green;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
