@@ -11,7 +11,9 @@ h2,
 h3,
 p,
 a,
-figcaption {
+figcaption, 
+label,
+legend {
     color: var(--davys-gray);
 }
 
@@ -90,7 +92,17 @@ article img {
     grid-template-columns: repeat(5, 1fr);
 }
 
-h2 {
+.employee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info {
+    padding: 30px;
+    background-color: var(--timberwolf);
+}
+
+h2, .info {
     text-align: center;
 }
 
@@ -127,7 +139,7 @@ figure {
     justify-items: center;
 }
 
-.adventure img {
+.adventure img, .employee img {
     width: 95%;
     height: auto;
 }
@@ -153,4 +165,29 @@ footer p {
 
 .sociallinks img {
     width: 20px;
+}
+
+form {
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 0.5rem;
+    padding: 10px;
+    border: 2px solid var(--gray);
+    background-color: var(--timberwolf);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 3px;
+    padding: 10px 20px;
+}
+
+label {
+    text-align: left;
+    padding-right: 10px;
+}
+
+button {
+    margin-left: 80%;
 }
